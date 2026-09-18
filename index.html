@@ -1,8 +1,162 @@
-<p>Hello 大家好</p>
-<p>这是我的个人网站。 </p>
-<p>很高兴你来到这里, 你可以在以下的网站找到我</p>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Your Name | M.S. Student in Computer Science</title>
+  <meta name="description" content="Personal homepage of Your Name, a first-year Master's student in Computer Science at University of XXX.">
+  <meta name="theme-color" content="#ffffff" media="(prefers-color-scheme: light)">
+  <meta name="theme-color" content="#0e1014" media="(prefers-color-scheme: dark)">
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
 
-<!-- <ul>
-  <li> <a href="https://www.zhihu.com/people/AJLoveChina">知乎</a> </li>
-  <li> <a href="http://hejie.nigeerhuo.com">我的博客(已经不更细了,现在在知乎写文章)</a> </li>
-</ul> -->
+  <!-- ===== Language switch (top-right) ===== -->
+  <nav class="lang-switch" aria-label="Language switcher">
+    <a href="index-zh.html" lang="zh-CN" hreflang="zh-CN">中文</a>
+  </nav>
+
+  <main class="container">
+
+    <!-- ===== Profile header ===== -->
+    <header class="profile">
+      <img class="avatar" src="assets/avatar.jpg" alt="Portrait of Your Name" width="136" height="136">
+      <div class="profile-body">
+        <h1>Your Name</h1>
+        <p class="role">First-year M.S. Student in Computer Science</p>
+        <p class="affiliation">
+          <a href="https://www.example.edu">University of XXX</a><br>
+          XXX Lab, Department of Computer Science
+        </p>
+        <ul class="links">
+          <li><a href="mailto:yourname@example.edu">Email</a></li>
+          <li><a href="https://github.com/yourname" target="_blank" rel="noopener">GitHub</a></li>
+          <li><a href="https://scholar.google.com/" target="_blank" rel="noopener">Google Scholar</a></li>
+          <li><a href="assets/cv.pdf">CV</a></li>
+        </ul>
+      </div>
+    </header>
+
+    <!-- ===== About ===== -->
+    <section id="about">
+      <h2>About Me</h2>
+      <p>
+        I am a first-year Master's student in the Department of Computer Science at
+        University of XXX, advised by <a href="#">Prof. XXX</a>. Before that, I received
+        my B.Eng. degree in Computer Science from University of YYY in 2025.
+      </p>
+      <p>
+        My research interests lie in machine learning, computer vision, and multimodal
+        learning. I am currently working on ...
+      </p>
+      <p>
+        I am always open to research collaborations and internship opportunities.
+        Feel free to reach out via email.
+      </p>
+    </section>
+
+    <!-- ===== News ===== -->
+    <section id="news">
+      <h2>News</h2>
+      <ul class="news">
+        <li>
+          <time datetime="2025-09">Sep 2025</time>
+          <span>Started my M.S. at University of XXX. 🎉</span>
+        </li>
+        <li>
+          <time datetime="2025-06">Jun 2025</time>
+          <span>Graduated from University of YYY with a B.Eng. degree.</span>
+        </li>
+        <li>
+          <time datetime="2025-05">May 2025</time>
+          <span>One paper accepted to <em>Conference XXX</em>.</span>
+        </li>
+      </ul>
+    </section>
+
+    <!-- ===== Research interests ===== -->
+    <section id="research">
+      <h2>Research Interests</h2>
+      <ul class="tags">
+        <li>Machine Learning</li>
+        <li>Computer Vision</li>
+        <li>Multimodal Learning</li>
+        <li>Large Language Models</li>
+      </ul>
+    </section>
+
+    <!-- ===== Education ===== -->
+    <section id="education">
+      <h2>Education</h2>
+
+      <div class="entry">
+        <div class="entry-head">
+          <span class="entry-title">University of XXX</span>
+          <span class="entry-date">Sep 2025 – Present</span>
+        </div>
+        <div class="entry-sub">M.S. in Computer Science &middot; Advisor: <a href="#">Prof. XXX</a></div>
+      </div>
+
+      <div class="entry">
+        <div class="entry-head">
+          <span class="entry-title">University of YYY</span>
+          <span class="entry-date">Sep 2021 – Jun 2025</span>
+        </div>
+        <div class="entry-sub">B.Eng. in Computer Science &middot; GPA: 3.8/4.0 (Top 5%)</div>
+      </div>
+    </section>
+
+    <!-- ===== Publications ===== -->
+    <section id="publications">
+      <h2>Publications</h2>
+      <p class="note">* indicates equal contribution.</p>
+      <ol class="pub-list">
+        <li class="pub">
+          <div class="pub-title">Your Paper Title Goes Here</div>
+          <div class="pub-authors"><span class="me">Your Name</span>*, Co-author A, Co-author B</div>
+          <div class="pub-venue"><em>Conference XXX</em>, 2025.
+            <a href="#">[PDF]</a> <a href="#">[Code]</a> <a href="#">[BibTeX]</a>
+          </div>
+        </li>
+        <li class="pub">
+          <div class="pub-title">Another Paper Title</div>
+          <div class="pub-authors">Co-author A, <span class="me">Your Name</span>, Co-author C</div>
+          <div class="pub-venue"><em>Journal YYY</em>, 2024.
+            <a href="#">[PDF]</a> <a href="#">[Code]</a>
+          </div>
+        </li>
+      </ol>
+    </section>
+
+    <!-- ===== Awards ===== -->
+    <section id="awards">
+      <h2>Honors &amp; Awards</h2>
+      <ul class="plain">
+        <li><span>National Scholarship</span><span class="meta">2024</span></li>
+        <li><span>Outstanding Graduate, University of YYY</span><span class="meta">2025</span></li>
+        <li><span>Second Prize, National Mathematical Modeling Contest</span><span class="meta">2023</span></li>
+      </ul>
+    </section>
+
+    <!-- ===== Skills ===== -->
+    <section id="skills">
+      <h2>Skills</h2>
+      <ul class="tags">
+        <li>Python</li>
+        <li>PyTorch</li>
+        <li>C++</li>
+        <li>Linux</li>
+        <li>Git</li>
+        <li>LaTeX</li>
+      </ul>
+    </section>
+
+    <footer>
+      <p>© 2025 Your Name · Last updated: October 2025</p>
+    </footer>
+
+  </main>
+
+</body>
+</html>
