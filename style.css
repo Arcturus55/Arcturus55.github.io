@@ -367,6 +367,28 @@ body {
     font-size: 13px;
 }
 
+/* Awards */
+
+.award {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+.award h3 {
+    margin: 0 0 6px;
+
+    font-size: 14px;
+
+    line-height: 1.5;
+
+    font-weight: 400;
+}
+
+.award .date {
+    margin: 0;
+    white-space: nowrap;
+}
 
 /* =====================================================
    Publications

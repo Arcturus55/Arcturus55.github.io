@@ -1,14 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
     <title>Zibo Li | Academic Homepage</title>
-
     <meta name="description"
-          content="Personal academic homepage of Your Name.">
-
+          content="Personal academic homepage of Zibo Li.">
     <link rel="stylesheet" href="style.css">
 </head>
 
@@ -23,9 +21,11 @@
 
         <nav class="nav-links">
             <a href="#about">About</a>
+            <a href="#education">Education</a>
             <a href="#research">Research</a>
             <a href="#publications">Publications</a>
-            <a href="#education">Education</a>
+            <a href="#project">Projects</a>
+            <a href="#award">Awards</a>
 
             <!-- Language switch -->
             <a href="zh.html" class="language-switch">
@@ -65,7 +65,7 @@
             <h1>Zibo Li</h1>
 
             <p class="subtitle">
-                Graduate Student in Artificial Intelligence
+                Graduate Student in Computer Science and Technology
             </p>
 
             <p class="affiliation">
@@ -74,8 +74,7 @@
             </p>
 
             <p class="bio">
-                I am a first-year graduate student interested in
-                artificial intelligence and Large Language Models.
+                I am a first-year graduate student in Convai Group of Nanjing University.
                 My current research focuses on multimodal reasoning and hallucination mitigation,
                 embedding models, and related topics.
             </p>
@@ -161,11 +160,11 @@
             <div class="timeline-content">
 
                 <h3>
-                    M.S. in the School of Artificial Intelligence
+                    M.S. in Computer Science and Technology
                 </h3>
 
                 <p>
-                    Nanjing University
+                    School of Artificial Intelligence, Nanjing University
                 </p>
 
             </div>
@@ -182,11 +181,11 @@
             <div class="timeline-content">
 
                 <h3>
-                    B.S. in the Schoole of Artificial Intelligence
+                    B.S. in Artificial Intelligence
                 </h3>
 
                 <p>
-                    Nanjing University
+                    School of Artificial Intelligence, Nanjing University
                 </p>
 
             </div>
@@ -209,7 +208,7 @@
             <span>Multimodal Large Language Models</span>
             <span>Multimodal Reasoning</span>
             <span>Multimodal Hallucination Detection and Mitigation</span>
-            <span>Embedding Models</span>
+            <span>Agentic Systems and Embedding Models</span>
 
         </div>
 
@@ -258,11 +257,133 @@
 
     </section>
 
+    <section id="project" class="section">
+
+        <h2>Project Experiences</h2>
+
+        <div class="publication">
+
+            <h3>
+                SMILE: Mitigating Object Hallucinations in VLMs via Small Model Assisted Contrastive Decoding and Image Lightweight Editing
+            </h3>
+
+            <p class="venue">
+                <em>Bachelor's Degree Graduation Project, 2025.10 ~ 2026.6</em>
+            </p>
+
+            <p>Prior work has explored Contrastive Decoding (CD) to mitigate mulltimodal hallucination. However, these methods suffer from two main drawbacks: suboptimal negative samples and efficiency bottlenecks. To address these limitations, we propose SMILE, a novel framework that improves both the efficiency and effectiveness of contrastive decoding with vision feedbacks. </p>
+
+        </div>
+
+        <div class="publication">
+
+            <h3>
+                Automated Workflow Meta Agent Based on Learnware Retrieval and Reinforcement Learning
+            </h3>
+
+            <p class="venue">
+                <em>School-Enterprise Cooperation Project, 2025.5 ~ 2025.9</em>
+            </p>
+
+            <p>This project aims to address the need for flexible workflows in tasks requiring diverse capabilities by designing and training a Meta Agent to replace the fixed orchestration logic found in traditional multi-agent systems, thereby enhancing task response adaptability. My responsibilities included researching existing methods (such as AFlow and FlowReasoner), modifying the SearchR1 framework to incorporate agent invocation capabilities, building the Meta Agent training framework, and completing the initial training. </p>
+
+        </div>
+
+        <div class="publication">
+
+            <h3>
+                Mitigating Hallucinations in the Rule-Based Reward Process During DeepSeek-R1 Training Utilizing RAG.
+            </h3>
+
+            <p class="venue">
+                <em>2025.3 ~ 2025.5</em>
+            </p>
+
+            <p>
+                During the training of the DeepSeek-R1 model, rule-based rewards are employed for the reasoning data component; however, as these rewards rely on heuristic rules, they can potentially introduce hallucinations during the training phase. This project aims to mitigate such hallucinations by utilizing Retrieval-Augmented Generation (RAG). Currently in its early stages, the project involves me testing the performance of R1 and its distilled variants on the HLE and GPQA datasets to verify the existence of these hallucination issues.
+            </p>
+
+        </div>
+
+        <div class="publication">
+
+            <h3>Virtual Body: Virtual Human Body Models to Enhance the Efficiency of Clinical Drug Trials</h3>
+
+            <p class="venue"><em>2024.11 ~ 2025.3</em></p>
+
+            <p>
+                Clinical trials are a critical stage in new drug development. This project aims to utilize artificial intelligence methods to model human physiological responses to drugs, thereby facilitating clinical trials for new drug development. My role involved training a reward model based on Deepseek-distill-qwen-7B and—in conjunction with other domestic large-scale models—evaluating and filtering data generated via a diffusion model. This project won the Grand Prize at the "Challenge Cup" National College Student Extracurricular Academic Science and Technology Works Competition.
+            </p>
+
+        </div>
+
+        <div class="publication">
+
+            <h3>Addressing the reward model misalignment problem</h3>
+
+            <p class="venue"><em>2024.12 ~ 2025.3</em></p>
+
+            <p>
+                The reward model is a crucial component of RLHF training, representing the human preferences targeted for alignment. However, existing reward datasets are plagued by issues such as erroneous or ambiguous preference signals, which hinder the effective alignment of large models with human preferences. This project aims to validate the existence of these issues by using advanced large models—such as GPT and Gemini—to evaluate preference datasets. By subsequently filtering and augmenting the datasets, the project seeks to enhance the training performance of the reward model.
+            </p>
+
+        </div>
+
+        <div class="publication">
+
+            <h3>Extreme Weather Recognition and Prediction Based on LongLLaVA</h3>
+
+            <p class="venue"><em>2024.9 ~ 2025.2</em></p>
+
+            <p>
+                This project aims to develop a multimodal system based on the LongLLaVA model capable of interpreting meteorological charts and forecasting extreme weather events using the information contained within them. LongLLaVA is a large multimodal model utilizing a hybrid Transformer-Mamba architecture, offering robust inference capabilities for multi-image inputs. Leveraging data from the weatherQA dataset, we constructed a training set spanning the years 2014 to 2019 to perform two-stage fine-tuning of the model. Current performance on the test set demonstrates that the model surpasses leading large-scale models such as GPT-4-Turbo and Claude-3-Opus.
+            </p>
+
+        </div>
+
+    </section>
+
+    <section id="award" class="section">
+
+        <h2>Competitions and Awards </h2>
+
+        <div class="award">
+            <h3>National Scholarship</h3>
+            <p class="date"><em>2025.12</em></p>
+        </div>
+
+        <div class="award">
+            <h3>People's Scholarship, Award for Academic Competitions</h3>
+            <p class="date"><em>2025.11</em></p>
+        </div>
+
+        <div class="award">
+            <h3>"Challenge Cup" National College Student Extracurricular Academic Science and Technology Works Competition, Grand Prize</h3>
+            <p class="date"><em>2025.11</em></p>
+        </div>
+
+        <div class="award">
+            <h3>China Undergraduate Mathematical Contest in Modeling, Second Prize (Regional Division)</h3>
+            <p class="date"><em>2024.12</em></p>
+        </div>
+
+        <div class="award">
+            <h3>Mathematical Contest in Modeling, Hornorable Mention</h3>
+            <p class="date"><em>2024.5</em></p>
+        </div>
+
+        
+        <!-- Example second publication -->
+
+        
+
+    </section>
+
     <!-- Footer -->
     <footer>
 
         <p>
-            © 2026 Your Name.
+            © 2026 Zibo Li.
         </p>
 
         <p class="footer-note">
