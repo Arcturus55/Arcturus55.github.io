@@ -1,14 +1,12 @@
 <!DOCTYPE html>
 <html lang="zh-CN">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <title>你的名字 | 个人主页</title>
-
+    <title>李子博 | 个人主页</title>
     <meta name="description"
-          content="你的名字的个人学术主页">
-
+          content="李子博的个人学术主页">
     <link rel="stylesheet" href="style.css">
 </head>
 
@@ -18,21 +16,21 @@
     <div class="container nav-container">
 
         <a href="zh.html" class="site-name">
-            你的名字
+            李子博
         </a>
 
         <nav class="nav-links">
-
             <a href="#about">关于我</a>
-            <a href="#research">研究方向</a>
-            <a href="#publications">发表论文</a>
             <a href="#education">教育经历</a>
+            <a href="#research">研究方向</a>
+            <a href="#publications">论文发表</a>
+            <a href="#project">项目经历</a>
+            <a href="#award">竞赛及获奖</a>
 
-            <!-- 返回英文 -->
+            <!-- Language switch -->
             <a href="index.html" class="language-switch">
                 English
             </a>
-
         </nav>
 
     </div>
@@ -41,24 +39,22 @@
 
 <main class="container">
 
-    <!-- About -->
+    <!-- Hero / About -->
     <section id="about" class="hero">
 
         <div class="hero-left">
 
             <div class="avatar-wrapper">
-
                 <img
                     src="assets/avatar.jpg"
-                    alt="你的名字"
+                    alt="李子博"
                     class="avatar"
                     onerror="this.style.display='none'; this.parentElement.classList.add('avatar-placeholder');"
                 >
 
                 <span class="avatar-fallback">
-                    你
+                    李
                 </span>
-
             </div>
 
         </div>
@@ -66,31 +62,30 @@
 
         <div class="hero-right">
 
-            <h1>你的名字</h1>
+            <h1>Zibo Li</h1>
 
             <p class="subtitle">
-                人工智能专业硕士研究生
+                计算机科学与技术 硕士研究生
             </p>
 
             <p class="affiliation">
-                计算机科学与技术学院<br>
-                你的大学
+                南京大学<br>
+                人工智能学院
             </p>
 
             <p class="bio">
-                我是你的大学人工智能专业的一名硕士研究生，
-                目前主要关注人工智能与机器学习领域。
+                我是南京大学对话智能研究组的一名一年级研究生，目前的研究方向主要集中于多模态推理与幻觉消除，Agent系统和其他有关的主题。
             </p>
 
-            <p class="bio">
-                我的研究兴趣包括多模态学习、大模型、
-                生成式人工智能以及计算机视觉等方向。
-            </p>
+            <!-- <p class="bio">
+                I am interested in building intelligent systems that
+                can perceive, reason, and interact with the world.
+            </p> -->
 
             <div class="social-links">
 
-                <a href="mailto:your.email@example.com">
-                    邮箱
+                <a href="mailto:502026370023@smail.nju.edu.cn">
+                    Email
                 </a>
 
                 <a href="https://scholar.google.com/"
@@ -99,7 +94,7 @@
                     Google Scholar
                 </a>
 
-                <a href="https://github.com/"
+                <a href="https://github.com/Arcturus55"
                    target="_blank"
                    rel="noopener noreferrer">
                     GitHub
@@ -107,7 +102,7 @@
 
                 <a href="assets/cv.pdf"
                    target="_blank">
-                    简历
+                    CV
                 </a>
 
             </div>
@@ -127,7 +122,7 @@
             <div class="news-item">
                 <span class="news-date">2026.09</span>
                 <span>
-                    开始在你的大学攻读硕士学位。
+                    开始在南京大学攻读硕士学位。
                 </span>
             </div>
 
@@ -139,7 +134,7 @@
             </div>
 
             <div class="news-item">
-                <span class="news-date">2026.06</span>
+                <span class="news-date">2026.07</span>
                 <span>
                     一篇论文被 ACM Multimedia 接收。
                 </span>
@@ -148,86 +143,6 @@
         </div>
 
     </section>
-
-
-    <!-- Research -->
-    <section id="research" class="section">
-
-        <h2>研究方向</h2>
-
-        <p class="section-text">
-            我的研究兴趣包括：
-        </p>
-
-        <div class="research-tags">
-
-            <span>多模态学习</span>
-            <span>多模态大模型</span>
-            <span>生成式人工智能</span>
-            <span>计算机视觉</span>
-            <span>表示学习</span>
-
-        </div>
-
-    </section>
-
-
-    <!-- Publications -->
-    <section id="publications" class="section">
-
-        <h2>发表论文</h2>
-
-        <div class="publication">
-
-            <h3>
-                论文标题
-            </h3>
-
-            <p class="authors">
-                你的名字, 合作者姓名, 其他作者
-            </p>
-
-            <p class="venue">
-                <em>Proceedings of ACM Multimedia, 2026</em>
-            </p>
-
-            <div class="paper-links">
-
-                <a href="#" target="_blank">
-                    论文
-                </a>
-
-                <a href="#" target="_blank">
-                    代码
-                </a>
-
-                <a href="#" target="_blank">
-                    项目主页
-                </a>
-
-            </div>
-
-        </div>
-
-
-        <div class="publication">
-
-            <h3>
-                另一篇研究论文
-            </h3>
-
-            <p class="authors">
-                作者一, <strong>你的名字</strong>, 作者三
-            </p>
-
-            <p class="venue">
-                <em>Under Review</em>
-            </p>
-
-        </div>
-
-    </section>
-
 
     <!-- Education -->
     <section id="education" class="section">
@@ -243,15 +158,11 @@
             <div class="timeline-content">
 
                 <h3>
-                    计算机科学与技术硕士
+                    计算机科学与技术 硕士
                 </h3>
 
                 <p>
-                    你的大学
-                </p>
-
-                <p class="muted">
-                    研究方向：人工智能与多模态学习
+                    南京大学 人工智能学院
                 </p>
 
             </div>
@@ -268,11 +179,11 @@
             <div class="timeline-content">
 
                 <h3>
-                    计算机科学与技术学士
+                    人工智能 学士
                 </h3>
 
                 <p>
-                    你的本科大学
+                    南京大学 人工智能学院
                 </p>
 
             </div>
@@ -281,11 +192,196 @@
 
     </section>
 
+    <!-- Research -->
+    <section id="research" class="section">
 
+        <h2>研究方向</h2>
+
+        <p class="section-text">
+            我的研究兴趣包括但不限于：
+        </p>
+
+        <div class="research-tags">
+
+            <span>多模态大语言模型</span>
+            <span>多模态推理</span>
+            <span>多模态幻觉检测与缓解</span>
+            <span>Agent系统与嵌入模型</span>
+
+        </div>
+
+    </section>
+
+
+    <!-- Publications -->
+    <section id="publications" class="section">
+
+        <h2>论文发表</h2>
+
+        <div class="publication">
+
+            <h3>
+                Beyond Nearest Neighbors: Reasoning in Embedding Space for Multi-Hop Retrieval.
+            </h3>
+
+            <p class="authors">
+                Yeqin Zhang, Haozhe Yang, Yu Zha, Ziyang Ren, <strong>Zibo Li</strong>, Yiqun Shen, Ruiyang Xu, Yang Chen, Guo-Wei Li, Liwei Liu, Cam-Tu Nguyen.
+            </p>
+
+            <p class="venue">
+                <em>In Proceedings of ICLR, 2027.</em>
+            </p>
+
+        </div>
+
+
+        <!-- Example second publication -->
+
+        <div class="publication">
+
+            <h3>
+                MeteorIR: Why Multimodal LLMs Hallucinate the Weather.
+            </h3>
+
+            <p class="authors">
+                Chuanghao Ding, <strong>Zibo Li</strong>, Yang Liu, Li Juan, Huiling Yuan, Xiaoliang Wang, Cam-Tu Nguyen.
+            </p>
+
+            <p class="venue">
+                <em>ACM Multimedia Poster, 2026.</em>
+            </p>
+
+        </div>
+
+    </section>
+
+    <section id="project" class="section">
+
+        <h2>项目经历</h2>
+
+        <div class="publication">
+
+            <h3>
+                SMILE: 基于小模型辅助对比解码与轻量级图像编辑的视觉语言模型物体级幻觉缓解
+            </h3>
+
+            <p class="venue">
+                <em>学士学位毕业设计, 2025.10 ~ 2026.6</em>
+            </p>
+
+            <p>既有研究已探索利用对比解码（Contrastive Decoding, CD）来缓解多模态幻觉问题。然而，这些方法存在两大主要缺陷：负样本质量不佳以及效率瓶颈。为克服这些局限，我们提出了 SMILE——一种利用视觉反馈来提升对比解码效率与效果的新型框架。 </p>
+
+        </div>
+
+        <div class="publication">
+
+            <h3>
+                基于学件查搜和强化学习的自动工作流编排Agent
+            </h3>
+
+            <p class="venue">
+                <em>校企合作项目, 2025.5 ~ 2025.9</em>
+            </p>
+
+            <p>本项目旨在针对企业 “多能力任务需灵活工作流” 需求，设计并训练 Meta Agent，替代传统多智能体系统中的固定编排逻辑，提升任务响应适配性；本项目中我负责调研已有方法（如 AFlow 和 FlowReasoner ），并修改 SearchR1 框架添加 Agent 调用功能，搭建 Meta Agent 训练框架，完成初步训练； </p>
+
+        </div>
+
+        <div class="publication">
+
+            <h3>
+                利用RAG减轻Deepseek-R1训练阶段在Rule Based Reward过程中的幻觉
+            </h3>
+
+            <p class="venue">
+                <em>2025.3 ~ 2025.5</em>
+            </p>
+
+            <p>
+                Deepseek-R1模型在训练过程中，有关推理数据的部分采用Rule Based Reward的方式提供奖励值，然而，这样的奖励往往基于启发式的规则设置，可能会在训练阶段引入幻觉。本项目旨在使用检索增强生成(RAG)的方式，减轻上述过程中的幻觉问题。本项目尚在初期阶段，现阶段我在项目中负责测试R1及其蒸馏模型在HLE和GPQA数据集上的表现，以验证幻觉的问题的确存在。
+            </p>
+
+        </div>
+
+        <div class="publication">
+
+            <h3>虚拟人体：提升药物临床试验效率的虚拟人体模型</h3>
+
+            <p class="venue"><em>2024.11 ~ 2025.3</em></p>
+
+            <p>
+                临床试验是新药研发的关键环节。本项目旨在利用人工智能方法对人体服用药物的反应过程做出建模，以便于新药开发的临床试验。在本项目中我负责根据Deepseek-distill-qwen-7B模型训练一个Reward Model，并结合其他国产大模型对由Diffusion Model填充得到的数据进行评价和筛选。本项目已获得“挑战杯”全国大学生课外学术科技作品竞赛特等奖。
+            </p>
+
+        </div>
+
+        <div class="publication">
+
+            <h3>解决Reward Model Misalign的问题</h3>
+
+            <p class="venue"><em>2024.12 ~ 2025.3</em></p>
+
+            <p>
+                Reward Model是RLHF训练中重要的一环，该模型代表了待对齐的人类偏好。但是在现有的reward数据集中却广泛存在偏好错误和偏好不明显的情况，导致大模型无法很好地与人类偏好对齐。本项目旨在通过使用gpt、gemini等大模型对偏好数据集进行检验，以证明上述问题的存在，并对数据集进行筛选和扩充，从而提升Reward Model的训练效果。
+            </p>
+
+        </div>
+
+        <div class="publication">
+
+            <h3>基于LongLLaVA的极端天气识别与预测系统</h3>
+
+            <p class="venue"><em>2024.9 ~ 2025.2</em></p>
+
+            <p>
+                本项目旨在根据LongLLaVA模型构造一个可以识别气象图，并根据图中信息对极端灾害天气进行预测的多模态系统。LongLLaVA是一个基于transformer和mamba混合架构的多模态大模型，对多图输入的推理能力较强。本项目使用的数据来源自weatherQA，并根据其内容构造了一个包含2014-2019年数据的训练集对LongLLaVA模型进行两阶段微调。目前模型在测试集上的表现已可以超过GPT-4-Turbo和Claude-3-Opus等专用大模型。
+            </p>
+
+        </div>
+
+    </section>
+
+    <section id="award" class="section">
+
+        <h2>竞赛及获奖 </h2>
+
+        <div class="award">
+            <h3>国家奖学金</h3>
+            <p class="date"><em>2025.12</em></p>
+        </div>
+
+        <div class="award">
+            <h3>人民奖学金 学科竞赛奖</h3>
+            <p class="date"><em>2025.11</em></p>
+        </div>
+
+        <div class="award">
+            <h3>“挑战杯”全国大学生课外学术科技作品竞赛 特等奖</h3>
+            <p class="date"><em>2025.11</em></p>
+        </div>
+
+        <div class="award">
+            <h3>全国大学生数学建模竞赛 赛区二等奖</h3>
+            <p class="date"><em>2024.12</em></p>
+        </div>
+
+        <div class="award">
+            <h3>美国大学生数学建模竞赛 Hornorable Mention</h3>
+            <p class="date"><em>2024.5</em></p>
+        </div>
+
+        
+        <!-- Example second publication -->
+
+        
+
+    </section>
+
+    <!-- Footer -->
     <footer>
 
         <p>
-            © 2026 你的名字
+            © 2026 Zibo Li.
         </p>
 
         <p class="footer-note">
